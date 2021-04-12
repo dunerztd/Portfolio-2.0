@@ -1,22 +1,25 @@
 import React from "react"
 import Layout from '../components/layout'
-import './index.css'
+
+import homeImage from '../files/home/background1.jpg'
+
 import "@fontsource/permanent-marker"
-import homeImage from '../images/background1.jpg'
+import './index.css'
+
+
 
 export default function App() {
 
-
   return (
     <Layout>
-      <section className="main-view">
-        <div className="background-image">
-          <img src={homeImage} />
-        </div>
-        <div className="text">
-          <h1>Tom Dunstan | Web Developer</h1>
-        </div>
-      </section>
+      <div className="main-view">
+          <div className="background-image">
+            <img src={homeImage}  alt="" />
+          </div>
+          <div className="text">
+            <h1>Tom Dunstan | Web Developer</h1>
+          </div>
+      </div>
     </Layout>
   )
 }

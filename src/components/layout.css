@@ -9,14 +9,15 @@ html {
   color: black;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+.container {
+  width: 100vw;
 }
 
 
 nav {
   color: black;
   background-color: darkgrey;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -75,11 +76,3 @@ nav a:hover {
   padding-top: 15px;
   padding-right: 10px;
 }
-
-
-
-
-h2 {
-  text-align: center;
-}
-

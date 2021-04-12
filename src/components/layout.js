@@ -1,7 +1,9 @@
 import React from "react"
+import { Link } from 'gatsby'
+
 import "@fontsource/poppins"
 import "./layout.css"
-import { Link } from 'gatsby'
+
 
 const Navbar = () => (
   <nav>
@@ -21,8 +23,10 @@ const Navbar = () => (
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="container">
+          <h1>hello</h1>
       <Navbar />
+
       {children}
     </div>
   )
