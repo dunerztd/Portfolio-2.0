@@ -6,9 +6,9 @@ import Layout from '../components/layout'
 export default function About() {
   return (
     <Layout>
-        <Link to="/">Home</Link>
-        <Header headerText="About" />
-        <p>Such wow. Very React.</p>
+      <Link to="/">Home</Link>
+      <Header headerText="About" />
+      <p>Such wow. Very React.</p>
     </Layout>
   )
 }
