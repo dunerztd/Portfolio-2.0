@@ -1,8 +1,85 @@
-html {
-  background-color: plum;
-  color: navy;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-p {
-  color: red;
+html {
+  background-color: darkgrey;
+  color: black;
 }
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+  color: black;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  padding-bottom: 65px;
+  z-index: 10000;
+}
+
+nav .links a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 5px;
+  
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.nav-logo {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  align-self: flex-start;
+  margin-left: 8px;
+  margin-top: 8px;
+  transition: 1s;
+}
+
+.nav-logo:hover {
+  height: 45px;
+  width: 45px;
+  transition: 1s;
+} 
+
+.nav-logo-text {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.nav-logo-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-logo-text a:hover {
+  color: white;
+}
+
+.links {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+
+
+
+h2 {
+  text-align: center;
+}
+

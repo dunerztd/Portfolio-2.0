@@ -1,0 +1,11 @@
+/* Heading */
+.nav-heading {
+  padding-top: 60px;
+  font-size: 32pt;
+  font-family: 'Permanent Marker', sans-serif;
+  background-color: lightgoldenrodyellow;
+  width: 100vw;
+  color: darkgrey;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
