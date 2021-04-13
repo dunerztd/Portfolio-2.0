@@ -4,8 +4,6 @@ import Header from "../components/header"
 
 export default function Work() {
 
-  document.title = 'Tom Dunstan | Work'
-
   return (
     <Layout>
       <Header headerText="Work" />

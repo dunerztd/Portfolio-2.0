@@ -13,14 +13,10 @@ import './about.css'
 
 export default function About() {
 
-
-
   return (
     <Layout>
       <Header headerText="About" />
       <body>
-
-        
           <section className="main-view1">
             <div className='text1'>
                 <h2>Tom Dunstan</h2>
@@ -30,22 +26,18 @@ export default function About() {
                 <p>My interests include Music, Comedy, Psychology, History and Sport.</p>
                 <p>Skills to pay the bills: Ruby, HTML, CSS and Git.</p>
                 <div className="icons">
-                  <img src={iconRuby} />
-                  <img src={iconHtml5} />
-                  <img src={iconCss3} />
-                  <img src={iconGit} />
+                  <img src={iconRuby} alt="" />
+                  <img src={iconHtml5} alt="" />
+                  <img src={iconCss3} alt="" />
+                  <img src={iconGit} alt="" />
                 </div>
                 <p>Download my resume: <a href="resume2018.pdf">Here</a></p>
             </div>
               <div className="img-box">
-                <img src={photoSelf} />
+                <img src={photoSelf} alt="" />
               </div>
-
-
           </section>
-
-    </body>
-  </Layout>
-
+      </body>
+    </Layout>
   )
 }

@@ -4,8 +4,6 @@ import Header from "../components/header"
 
 export default function Blog() {
 
-  document.title = 'Tom Dunstan | Blog'
-
   return (
     <Layout>
       <Header headerText="Blog" />
