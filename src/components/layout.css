@@ -22,7 +22,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
-  height: 60px;
+  height: 10px;
   width: 100vw;
   top: 0;
   padding-bottom: 65px;

@@ -24,9 +24,7 @@ const Navbar = () => (
 export default function Layout({ children }) {
   return (
     <div className="container">
-          <h1>hello</h1>
       <Navbar />
-
       {children}
     </div>
   )

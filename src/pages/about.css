@@ -1,8 +1,21 @@
-html {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-color: darkgrey;
   font-family: 'Poppins', sans-serif;
 }
 
-.main-view {
+.container {
+  width: 100vw;
+  margin: 0;
+}
+
+
+.main-view1 {
   width: 100vw;
   display: flex;
   flex-direction: row;
@@ -11,27 +24,26 @@ html {
   flex-wrap: wrap;
 }
 
-.text {
-  font-family: 'Poppins', sans-serif;
-  color: black;
+.text1 {
   width: 50vw;
   border-radius: 15px;
   background-color: gray;
   padding: 20px;
   text-align: center;
   margin: 20px;
+
 }
 
-.text p {
+.text1 p {
   padding: 10px;
 }
 
-.text p a {
+.text1 p a {
   text-decoration: none;
   color: white;
 }
 
-.text p a:hover {
+.text1 p a:hover {
   border-bottom: solid 1px white;
 }
 
@@ -62,7 +74,7 @@ html {
     flex-direction: column;
   }
 
-  .text {
+  .text1 {
     width: 80vw;
   }
 }
