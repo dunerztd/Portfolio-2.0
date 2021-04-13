@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "../components/header"
 import Layout from '../components/layout'
+import Header from "../components/header"
 
 import iconRuby from '../files/about/ruby.svg'
 import iconHtml5 from '../files/about/html5.svg'
