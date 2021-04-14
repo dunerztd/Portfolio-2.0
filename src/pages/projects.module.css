@@ -2,23 +2,15 @@
 /* Main viewing area */
 
 .mainView {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* Main view grid box */
-
-
-.gridBox {
-  width: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
-}
 
 .image {
   width: 300px;
@@ -29,7 +21,7 @@
   text-align: center;
   width: 300px;
   height: auto;
-
+  padding: 20px 0px 10px 0px;
 }
 
 img {
@@ -38,23 +30,43 @@ img {
 }
 
 .imageText h2 {
-  padding: 10px;
+  padding: 20px;
 }
 
-.imageText a {
+.box a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
-.imageText a:hover {
-  border-bottom: solid 1px white;
-}
 
 .box {
   /* border: 2px solid black; */
   border-radius: 15px;
   background-color: gray;
-  padding: 20px
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.boxHeading {
+  padding: 5px 0px 30px 0px;
+}
+
+.title {
+  font-size: 45px;
+  padding: 10px 0px;
+  
+}
+
+.titleFirstLetter {
+  color: lightgoldenrodyellow;
+}
+
+.tech {
+  color: orange;
+}
+
+.github:hover {
+  background-color: white;
 }
 
 /* Media queries */

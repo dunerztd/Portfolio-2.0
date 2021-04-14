@@ -14,7 +14,7 @@ const Navbar = () => (
     </div>
     <div className="links">
       <Link to="/contact/">Contact</Link>
-      <Link to="/work/">Work</Link>
+      <Link to="/projects/">Projects</Link>
       <Link to="/blog/">Blog</Link>
       <Link to="/about/">About</Link>
     </div>
@@ -23,7 +23,7 @@ const Navbar = () => (
 
 export default function Layout({ children }) {
   return (
-    <div className="container">
+    <div>
       <Navbar />
       {children}
     </div>

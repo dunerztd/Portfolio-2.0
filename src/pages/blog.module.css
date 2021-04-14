@@ -7,6 +7,10 @@
   justify-content: center;
 }
 
+.container {
+  width: 100vw;
+}
+
 /* recent links to blog entries/photos */
 
 .linksContainer {
@@ -64,9 +68,14 @@ ul li a:hover {
   /* display: flex;
   flex-direction: row;
   flex-wrap: wrap; */
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+      display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .photoContainer .box {
