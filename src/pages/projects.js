@@ -41,13 +41,16 @@ export default function Work() {
         </p>
       </div>
 
-      <div className={styles.image}>
-        <img src={props.image} alt="" />
-      </div>
-      <div className={styles.imageText}>
-        <p>
-          {props.description}
-        </p>
+      <div className={styles.imageAndText}>
+        <div className={styles.image}>
+          <img src={props.image} alt="" />
+        </div>
+        
+        <div className={styles.imageText}>
+          <p>
+            {props.description}
+          </p>
+        </div>
       </div>
 
     </div>

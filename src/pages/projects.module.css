@@ -10,41 +10,44 @@
   flex-direction: row;
 }
 
-/* Main view grid box */
-
-.image {
-  width: 400px;
-  height: 250px;
-}
-
-.imageText {
-  text-align: center;
-  width: 400px;
-  height: auto;
-  padding: 20px 0px 10px 0px;
-}
+/* Main view  */
 
 img {
   width: 100%;
   height: 100%
 }
 
-.imageText h2 {
+.image {
+  width: 50%;
+  height: auto;
+}
+
+.imageText {
+  text-align: left;
+  width: 45%;
+  height: auto;
+  padding-left: 30px;
+}
+
+
+.imageAndText {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.box {
+  border-radius: 15px;
+  background-color: gray;
   padding: 20px;
+  margin: 20px 10px;
+  width: 90%;
 }
 
 .box a {
   text-decoration: none;
   color: black;
-}
-
-
-.box {
-  /* border: 2px solid black; */
-  border-radius: 15px;
-  background-color: gray;
-  padding: 20px;
-  margin: 20px 10px;
 }
 
 .boxHeading {
@@ -62,7 +65,7 @@ img {
 }
 
 .tech {
-  width: 300px;
+  width: 100%;
   padding-top: 10px;
 }
 
@@ -76,8 +79,39 @@ img {
 
 /* Media queries */
 
-@media only screen and (max-width: 600px) {
-  .gridBox {
-    grid-template-columns: 1fr;
+
+@media all and (max-width: 1000px) {
+  .imageAndText {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 80%;
+    height: 90%;
+  }
+
+  .imageText {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .imageAndText {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    width: 100%;
+    height: 90%;
+  }
+
+  .imageText {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
   }
 }
