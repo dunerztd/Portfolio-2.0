@@ -22,12 +22,16 @@ export default function Work() {
                   <h1 className={styles.title}>
                     <span className={styles.titleFirstLetter}>T</span>erminal <span className={styles.titleFirstLetter}>A</span>pp</h1>
 
-                    <p><a href="https://github.com/dunerztd/Chords_and_Keys">
-                      <span className={styles.github}>GitHub</span>
-                    </a> |   
+                    <p>
                       <a href="https://github.com/dunerztd/Chords_and_Keys">
-                    <span className={styles.github}> Deployed Site</span>
-                    </a></p>
+                        <span className={styles.github}>GitHub</span>
+                      </a>
+                      <span> | </span>
+                      <a href="https://github.com/dunerztd/Chords_and_Keys">
+                        <span className={styles.github}> Deployed Site</span>
+                      </a>
+                    </p>
+
                     <p><span className={styles.tech}>Tech: </span>Ruby</p>
                 </div>
                 <div className={styles.image}>
