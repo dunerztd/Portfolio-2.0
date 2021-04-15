@@ -77,7 +77,9 @@ export default function Work() {
             github="https://github.com/dunerztd/marketplace_app"
             deployed="https://marketplaceapp-guitar.herokuapp.com/"
             tech="Ruby, Ruby on Rails, HTML, CSS, Bootstrap, PostgreSQL, Heroku, Amazon S3"
-            description=""
+            description="<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+            
+            <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>"
             image={rorScrnsht}
           />
           <Box
@@ -90,7 +92,7 @@ export default function Work() {
             github="https://github.com/MAM-MERN"
             deployed="https://mam-mern.netlify.app/"
             tech="Javascript, MongoDB, Express JS, React, Node JS, Mongoose, HTML, CSS, Netlify, Heroku, Amazon S3"
-            description=""
+            description="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum"
             image={mamScrnsht}
           />
           <Box
@@ -101,7 +103,7 @@ export default function Work() {
             github="https://github.com/dunerztd/share-fomo"
             deployed="https://objective-meninsky-35165e.netlify.app/"
             tech="Javascript, HTML, CSS, Bootstrap, API"
-            description=""
+            description="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum"
             image={sharefomoScrnsht}
           />
           </div>
