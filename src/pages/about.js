@@ -2,10 +2,6 @@ import React from "react"
 import Layout from '../components/layout'
 import Header from "../components/header"
 
-import iconRuby from '../files/about/ruby.svg'
-import iconHtml5 from '../files/about/html5.svg'
-import iconCss3 from '../files/about/css3.svg'
-import iconGit from '../files/about/git.svg'
 import photoSelf from '../files/about/photo1.png'
 
 import "@fontsource/poppins"

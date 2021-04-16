@@ -79,8 +79,30 @@ img {
 
 /* Media queries */
 
+@media all and (min-width: 1500px) {
+  .image {
+    width: 40%;
+    height: auto;
+  }
 
-@media all and (max-width: 1000px) {
+  .imageText {
+    text-align: left;
+    width: 45%;
+    height: auto;
+    padding-left: 30px;
+  }
+
+
+  .imageAndText {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+
+@media all and (max-width: 1100px) {
   .imageAndText {
     flex-direction: column;
     justify-content: center;
