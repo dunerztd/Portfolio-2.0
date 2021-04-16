@@ -2,11 +2,8 @@ import React from "react"
 import Layout from '../components/layout'
 import Header from "../components/header"
 
-import iconFB from '../files/contact/facebook.svg'
 import iconGH from '../files/contact/github.svg'
-import iconIG from '../files/contact/instagram.svg'
 import iconLI from '../files/contact/linkedin.svg'
-import iconTW from '../files/contact/twitter.svg'
 
 import * as styles from './contact.module.css'
 
@@ -21,21 +18,32 @@ export default function Contact() {
 
           <section class={styles.mainView1}>
 
-              <section class={styles.formBox}>
-                <form action="https://formspree.io/mpzlvwjr" method="POST">
+              <div className={styles.formBoxTop}>
+
+                <form className={styles.formBox} action="https://formspree.io/mpzlvwjr" method="POST">
                   <h2 class={styles.formHeading}>Send me a Message!</h2>
-                  <label for="name">Name:</label>
-                  <input type="text" id="name" name="name" placeholder="Your name" />
 
-                  <label for="email" class="form-email-label">Email:</label>
-                  <input type="text" id="email" name="email" placeholder="Your email address" />
+                  <div className={styles.name}>
+                    <label for="name" className={styles.label1}>Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" className={styles.input1}/>
+                  </div>
 
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message" placeholder="Write something"></textarea>
+                  <div className={styles.email}>
+                    <label for="email" className={styles.label1}>Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address" className={styles.input1}/>
+                  </div>
 
-                  <input type="submit" value="Submit" />
+                  <div className={styles.message}>
+                    <label for="message" className={styles.label1}>Message:</label>
+                    <textarea className={styles.textarea1} id="message" name="message" placeholder="Write something" />
+                  </div>
+
+                  <div className={styles.inputSubmit}>
+                    <input type="submit" value="Submit" className={styles.submitButton}/>
+                  </div>
+
                 </form>
-              </section>
+              </div>
 
               <section>
                 <div class={styles.sMediaLink} >
@@ -44,15 +52,6 @@ export default function Contact() {
                   </a>
                   <a href="https://www.linkedin.com/in/tom-dunstan-4a76681b0/" class={styles.row1}>
                     <img src={iconLI} width="50" height="50" alt="" />
-                  </a>
-                  <a href="#instagram" class={styles.row2}>
-                    <img src={iconIG} width="50" height="50" alt="" />
-                  </a>
-                  <a href="#facebook" class={styles.row2}>
-                    <img src={iconFB} width="50" height="50" alt="" />
-                  </a>
-                  <a href="#twitter" class={styles.row3}>
-                    <img src={iconTW} width="50" height="50" alt="" />
                   </a>
                 </div>
               </section>
