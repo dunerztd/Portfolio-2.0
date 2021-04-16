@@ -27,8 +27,10 @@ img {
   width: 45%;
   height: auto;
   padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
-
 
 .imageAndText {
   width: 100%;
@@ -51,13 +53,12 @@ img {
 }
 
 .boxHeading {
-  padding: 5px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
+  width: 50%;
 }
 
 .title {
   font-size: 45px;
-  padding: 10px 0px;
-  
 }
 
 .titleFirstLetter {
@@ -67,6 +68,7 @@ img {
 .tech {
   width: 100%;
   padding-top: 10px;
+  font-size: 14pt;
 }
 
 .techColour {
@@ -75,6 +77,10 @@ img {
 
 .github:hover {
   background-color: white;
+}
+
+.github {
+  font-size: 14pt;
 }
 
 /* Media queries */
@@ -105,8 +111,8 @@ img {
 @media all and (max-width: 1100px) {
   .imageAndText {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
   }
 
   .image {
@@ -117,6 +123,10 @@ img {
   .imageText {
     width: 100%;
     padding: 20px 0px 0px 0px;
+  }
+
+  .boxHeading {
+    width: 100%;
   }
 }
 
