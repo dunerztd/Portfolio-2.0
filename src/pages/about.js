@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Header from "../components/header"
 
 import photoSelf from '../files/about/photo1.png'
+import resume from '../files/about/ThomasDunstan-Resume-2021.pdf'
 
 import "@fontsource/poppins"
 import './about.css'
@@ -21,7 +22,7 @@ export default function About() {
                 <p>I've mainly worked in retail and warehousing.</p>
                 <p>My interests include Music, Comedy, Psychology, History and Sport.</p>
                 <p><b>Skills to pay the bills:</b> Javascript, Node JS, Express JS, React, Mongoose, Ruby, Ruby on Rails, HTML, CSS, MongoDB, PostgreSQL, Git/GitHub, Heroku, Amazon S3, Mocha, Chai, Supertest.</p>
-                <p>Download my resume: <a href={"/ThomasDunstan-Resume-2021.pdf"}>Here</a></p>
+                <p>Download my resume: <a href={resume}>Here</a></p>
             </div>
               <div className="img-box">
                 <img src={photoSelf} alt="" />
