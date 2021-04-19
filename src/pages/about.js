@@ -21,7 +21,7 @@ export default function About() {
                 <p>I've mainly worked in retail and warehousing.</p>
                 <p>My interests include Music, Comedy, Psychology, History and Sport.</p>
                 <p><b>Skills to pay the bills:</b> Javascript, Node JS, Express JS, React, Mongoose, Ruby, Ruby on Rails, HTML, CSS, MongoDB, PostgreSQL, Git/GitHub, Heroku, Amazon S3, Mocha, Chai, Supertest.</p>
-                <p>Download my resume: <a href="https://agitated-brown-65fe84.netlify.app/about/ThomasDunstan-Resume-2021.pdf">Here</a></p>
+                <p>Download my resume: <a href="https://agitated-brown-65fe84.netlify.app/static/ThomasDunstan-Resume-2021.pdf">Here</a></p>
             </div>
               <div className="img-box">
                 <img src={photoSelf} alt="" />
