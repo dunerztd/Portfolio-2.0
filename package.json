@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "tom-dunstan-portfolio-2.0",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Original portfolio website converted into react components/pages and updated",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -17,12 +17,8 @@
     "@fontsource/permanent-marker": "^4.2.2",
     "@fontsource/poppins": "^4.2.2",
     "gatsby": "^3.0.1",
-    "gatsby-plugin-typography": "^3.2.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-typography": "^0.16.19",
-    "typography": "^0.16.19",
-    "typography-theme-fairy-gates": "^0.16.19"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "prettier": "2.2.1"
