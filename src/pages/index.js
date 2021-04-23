@@ -15,8 +15,8 @@ export default function App() {
     <Layout>
       <div className="main-view">
           <div className="background-image">
-            <img src={homeImage}  alt="" class="homeImage" />
-            <img src={homeImageSmall}  alt="" class="homeImageSmall" />
+            <img src={homeImage}  alt="" className="homeImage" />
+            <img src={homeImageSmall}  alt="" className="homeImageSmall" />
           </div>
           <div className="text">
             <h1>Tom Dunstan | </h1>
